@@ -1,0 +1,27 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: wrap;
+    flex-flow: wrap;
+    
+ }
+
+h1{
+    color: goldenrod;
+    text-align: center;
+    box-sizing: border-box;
+    border: solid goldenrod;
+    border-radius: 5px;
+
+}
+main{
+    box-sizing: content-box;
+    border-radius: 5px;
+    border: inset silver;
+    padding: 60px;
+    text-align: center;
+
+}
+button{
+    margin: 0 auto;
+    display: block;
+}
