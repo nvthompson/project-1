@@ -5,27 +5,21 @@ const url = 'https://api.adviceslip.com/advice';
 
 
 //element reference
-const $advice = $('#slip');
+const $advice = $('#slip.advice');
 
 
 //element listeners
 $('#btn-advice').on('click', handleClick);
 
 //functions
-function handleClick(evt){
+function handleClick(evt) {
     evt.preventDefault();
 
-    $.ajax(url).then(function(data){
-        
-        render(data);
-       
+    $.ajax(url).then(function (data) {
+        const slipObject = (JSON.parse(data));
+        $('main').html(`
+        <h3>${slipObject.slip.advice}</h3>
+        <img src="https://i.pinimg.com/originals/f1/9d/38/f19d38adcc7ac1de5bb2b0771a066399.gif" alt="">
+        `);
     });
 }
-
-function render(slip){
-    $('main').html(`
-    <h3>${slip}</h3>
-    <img src="https://media1.giphy.com/media/lqvOP6ZqZLxwxu1ppD/200w.webp?cid=ecf05e47tth4eizd4ohq3ld282mgj55xoj8m9vwrnuglj3lv&rid=200w.webp&ct=g" alt="">
-    `);
-}
-
