@@ -1,30 +1,31 @@
+//console.log($.ajax('https://api.adviceslip.com/advice'))
 
-// console.log($.ajax('https://api.adviceslip.com/advice'))
 //variables
-// const URL = 'https://api.adviceslip.com/advice';
+const url = 'https://api.adviceslip.com/advice';
+
 
 //element reference
-const $id = $('#slip.id');
-const $advice = $('#slip.advice');
-const $form = $('form')
-const $input = $('input[type="button"]');
+const $advice = $('#slip');
+
 
 //element listeners
-$form.on('click', handleClick);
+$('#btn-advice').on('click', handleClick);
 
 //functions
 function handleClick(evt){
-    console.log(evt);
     evt.preventDefault();
 
-    $.ajax('https://api.adviceslip.com/advice').then(function(advice){
-        render(advice);
+    $.ajax(url).then(function(data){
+        
+        render(data);
+       
     });
 }
 
-function render(adviceSlip){
+function render(slip){
     $('main').html(`
-    <p>${adviceSlip.advice}</p>
+    <h3>${slip}</h3>
+    <img src="https://media1.giphy.com/media/lqvOP6ZqZLxwxu1ppD/200w.webp?cid=ecf05e47tth4eizd4ohq3ld282mgj55xoj8m9vwrnuglj3lv&rid=200w.webp&ct=g" alt="">
     `);
 }
 
