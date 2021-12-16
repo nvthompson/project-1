@@ -10,5 +10,7 @@ A web application that returns random pieces of advice using Advice Slip API.
 ![WireFrame](./img/screenshot.png)
 
 ## Getting Started
+![Click Here](https://advice-project-1.netlify.app/) to see deployed app!
 
 ## Future Enhancements
+* The ability to select an advice slip of choice.
