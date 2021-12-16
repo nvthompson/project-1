@@ -39,7 +39,7 @@ h3{
     border-radius: 5px;
 }
 
-.cute{
+.cute, .advice{
     max-width: 100%;
     height: auto;
 }
