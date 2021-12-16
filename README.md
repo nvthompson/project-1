@@ -5,12 +5,15 @@ A web application that returns random pieces of advice using Advice Slip API.
 * HTML
 * CSS
 * JavaScript
+* jQuery
 
 ## Screenshots
-![WireFrame](./img/screenshot.png)
+[Imgur](https://i.imgur.com/YjL57mz.png)
+[Imgur](https://i.imgur.com/UWMAfaX.png)
+[Imgur](https://i.imgur.com/4CXaE17.png)
 
 ## Getting Started
-![Click Here](https://advice-project-1.netlify.app/) to see deployed app!
+[Click Here](https://advice-project-1.netlify.app/) to see deployed app!
 
 ## Future Enhancements
 * The ability to select an advice slip of choice.
