@@ -7,7 +7,7 @@ A web application that returns random pieces of advice using Advice Slip API.
 * JavaScript
 
 ## Screenshots
-! (Screen Shot 2021-12-14 at 12.29.25 PM.png)
+![WireFrame](./img/screenshot.png)
 
 ## Getting Started
 
