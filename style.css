@@ -4,7 +4,8 @@ body{
     flex-flow: wrap;
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk62339181-wikimedia-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=1730a6527644cc8144000cda3be5d7eb");
     background-repeat: no-repeat;
-    background-size: 1500px 950px; 
+    background-size: 1500px 950px;
+    padding: 55px; 
     
     /* background-image: url("https://www.teahub.io/photos/full/302-3025413_hd-zen-wallpaper-zen-wallpaper-4k.jpg"); */
     /* background-image: url("http://www.pixeden.com/media/k2/galleries/220/001-wood-melamine-subttle-pattern-background-pat.jpg"); */
@@ -36,6 +37,11 @@ h3{
     color: honeydew;
     background-color: goldenrod;
     border-radius: 5px;
+}
+
+.cute{
+    max-width: 100%;
+    height: auto;
 }
 
 

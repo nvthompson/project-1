@@ -19,7 +19,7 @@ function handleClick(evt) {
         const slipObject = (JSON.parse(data));
         $('main').html(`
         <h3>${slipObject.slip.advice}</h3>
-        <img src="https://i.pinimg.com/originals/f1/9d/38/f19d38adcc7ac1de5bb2b0771a066399.gif" alt="">
+        <img class="cute" src="https://i.pinimg.com/originals/f1/9d/38/f19d38adcc7ac1de5bb2b0771a066399.gif" alt="">
         `);
     });
 }
