@@ -8,7 +8,6 @@ A web application that returns random pieces of advice using Advice Slip API.
 * jQuery
 
 ## Screenshots
-![Imgur](https://i.imgur.com/YjL57mz.png)
 ![Imgur](https://i.imgur.com/UWMAfaX.png)
 ![Imgur](https://i.imgur.com/4CXaE17.png)
 
